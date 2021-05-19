@@ -1,0 +1,163 @@
+
+@font-face {
+  font-family: "Montserrat", sans-serif;
+  src: url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+      url("../fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+.body{
+  font-family: 'Montserrat',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.site-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.div-all {
+  display: flex;
+}
+
+.basic{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  width: 350px;
+  padding: 31px;
+  border-radius: 10px;
+}
+
+.basic-heading{
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.basic-item {
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #4A4D60;
+}
+
+.basic-money{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 71px;
+  letter-spacing: -2.16px;
+  color: #4A4D60;
+}
+
+.basic-stronge::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #6E728E;
+  opacity: 0.25;
+  margin-bottom: 12px;
+}
+
+.basic-stronge {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+
+.basic-user::before{
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #6E728E;
+  opacity: 0.25;
+  margin-bottom: 12px;
+}
+
+.basic-user {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.basic-send::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #6E728E;
+  opacity: 0.25;
+  margin-bottom: 12px;
+}
+
+
+
+.basic-send {
+  font-size: 15px;
+  line-height: 28px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.basic-send::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #6E728E;
+  opacity: 0.25;
+  margin-bottom: 32px;
+  margin-top: 12px;
+}
+
+
+.basic-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  justify-content: center;
+  border-radius: 6px;
+  text-align: center;
+  letter-spacing: 1.39286px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  border: 2px solid transparent;
+  padding: 14px 67px;
+  background-color: #A2A7F0;
+
+}
+
+.basic-link:hover {
+  background-color: #FFFFFF;
+  color: #696EDD;
+}
+
+.professional{
+  background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px;
+  color: #FFFFFF;
+
+}
+
